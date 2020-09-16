@@ -226,7 +226,7 @@ footer {
   height: 100vh;
   min-height: 500px;
   max-height: 1080px;
-  background: url(../images/lead-bg2.jpg);
+  background: url(../images/manOnTable.52be3144.svg);
   background-size: cover;
   padding: 15px;
   overflow: hidden;
@@ -234,28 +234,29 @@ footer {
 #lead-content {
   position: absolute;
   z-index: 10;
-  top: 50%;
-  left: 50%;
+  top: 30%;
+  left: 67%;
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
 }
 #lead-content h1,
 #lead-content h2 {
   margin: 0;
 }
 #lead-content h1 {
-  color: #cee1ff;
-  font-weight: 900;
-  font-size: 5em;
-  text-transform: uppercase;
+  color: #6c63ff;
+  font-weight: 500;
+  font-size: 4em;
+  /* text-transform: uppercase; */
   letter-spacing: 0.05em;
   line-height: 0.9em;
 }
 #lead-content h2 {
-  color: #bac6ce;
+  color: #67647e;
   font-weight: 500;
   font-size: 2.25em;
   margin-bottom: 15px;
+  padding-left: 5px;
 }
 #lead-overlay {
   position: absolute;
@@ -265,7 +266,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(47, 68, 83, 0.5);
+  /* background: rgba(47, 68, 83, 0.5); */
   z-index: 1;
 }
 #lead-down {
@@ -309,11 +310,13 @@ footer {
   border-bottom: 1px solid #dcd9d9;
 }
 #about h2 {
-  color: #374054;
+  color: #6c63ff;
+  font-weight: 500;
 }
 #about p {
-  color: #74808a;
-  margin: 0;
+  color: #303a42;
+  font-weight: 500;
+  line-height: 2.6;
 }
 #experience {
   padding: 50px 15px;
@@ -413,14 +416,17 @@ footer {
   text-align: center;
 }
 #education h2 {
-  color: #374054;
+  color: #3498db;
   margin-bottom: 50px;
+  font-weight: 500;
 }
 .education-block {
   max-width: 700px;
   margin: 0 auto 30px auto;
   padding: 15px;
-  border: 1px solid #dcd9d9;
+  /* border: 1px solid #dcd9d9; */
+  text-align: justify;
+  text-justify: inter-word;
   text-align: left;
 }
 .education-block h3 {
