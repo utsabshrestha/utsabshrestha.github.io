@@ -218,7 +218,7 @@ footer {
   left: 0;
   right: 0;
   margin: 0 auto;
-  background: #3498db;
+  background: #40708f;
 }
 .background-alt {
   background: #f2f2f5;
@@ -246,7 +246,7 @@ footer {
   margin: 0;
 }
 #lead-content h1 {
-  color: #6c63ff;
+  color: #5c5a84;
   font-weight: 500;
   font-size: 4em;
   /* text-transform: uppercase; */
