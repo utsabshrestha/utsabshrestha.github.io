@@ -1,306 +1,215 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
+<!doctype html>
+<html lang="en" data-theme="light">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Utsab Shrestha</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/styles.css" rel="stylesheet" />
+    <title>Utsab Shrestha — Software Engineer</title>
+    <meta name="description" content="Resume website for Utsab Shrestha — Software Engineer and Engineering Manager with experience in .NET, distributed systems, and cloud." />
+    <meta name="color-scheme" content="light dark" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Utsab Shrestha — Software Engineer" />
+    <meta property="og:description" content="Modern resume with skills, experience, projects, and downloadable PDF." />
+    <meta property="og:type" content="website" />
+
+    <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
-    <div id="mobile-menu-open" class="shadow-large">
-      <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-      <div id="mobile-menu-close">
-        <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-      </div>
-      <ul id="menu" class="shadow" style="width: 100% !important">
-        <li>
+    <header class="site-header">
+      <div class="container nav">
+        <a href="#top" class="brand">Utsab Shrestha</a>
+        <nav id="primary-nav" class="nav-links">
           <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#experience">Experience</a>
-        </li>
-        <li>
-          <a href="#education">Education</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
           <a href="#skills">Skills</a>
-        </li>
-        <li>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
           <a href="#contact">Contact</a>
-        </li>
-      </ul>
+        </nav>
+        <div class="nav-actions">
+          <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme">🌓</button>
+          <button id="menu-toggle" class="icon-btn" aria-label="Menu">☰</button>
+        </div>
+      </div>
     </header>
-    <!-- End header -->
 
-    <div id="lead">
-      <div id="lead-content">
-        <h1>Utsab Shrestha</h1>
-        <h4>Software Engineering | C# | ASP.NET Core | SQL Server | Scalable Solutions | MS in Computer Science Student | Seeking Summer Internship.</h2>
-        <!-- <a href="#" class="btn-rounded-white">Download Resume</a> -->
-      </div>
-      <!-- End #lead-content -->
-
-      <div id="lead-overlay"></div>
-
-      <div id="lead-down">
-        <span>
-          <i class="fa fa-chevron-down" aria-hidden="true"></i>
-        </span>
-      </div>
-      <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
-
-    <div id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h2 class="heading">About Me</h2>
-          </div>
-          <div
-            class="col-md-8"
-            style="text-align: justify; text-justify: inter-word">
-            <p>
-              Results-driven software engineering leader with 7+ years in scalable app development, focusing on US healthcare at Cedar Gate Technologies. 
-              <br> As Engineering Manager, I led a 9-engineer team to build a bundle claim payment service using ASP.NET Core, C#, and SQL Server—integrating APIs for value-based care, reducing debugging time by 30%, and earning the 2025 Spotlight Award for the Enterprise Claims Engine launch.
-              <br>Proficient in full-stack tech (Java, JavaScript, Blazor, Node.js), cloud (AWS, Azure), DevOps (Docker, Kubernetes, Jenkins, CI/CD), and databases (PostgreSQL, MySQL). Optimized queries for 30% performance gains and developed high-throughput APIs handling 1M+ records. 
-              Mentored juniors and streamlined collaborations to cut delays by 25%.
-              <br>Pursuing MS in Computer Science (AI focus) at University of South Dakota. Seeking summer internship as Senior/Software Engineer in healthcare, AI, or software innovation. 
-              <br>Let's connect!
-              <br>Skills: C# • ASP.NET Core • SQL Server • AWS • Azure • Docker • Machine Learning • Value-Based Care • Agile Leadership
-            </p>
+    <main id="top">
+      <!-- Hero -->
+      <section class="hero container reveal">
+        <div class="hero-text">
+          <h1 class="gradient-text">Utsab Shrestha</h1>
+          <p class="subtitle">Software Engineer • Engineering Manager</p>
+          <p class="tagline">
+            Building performant .NET services, distributed schedulers, and cloud-native systems for data-heavy products.
+          </p>
+          <div class="cta">
+            <!-- Same-origin PDF for download -->
+            <a class="btn primary" href="assets/UtsabShresthaResume.pdf" download="Utsab_Shrestha_Resume.pdf" rel="noopener">Download Resume</a>
+            <a class="btn" href="mailto:utsab.shrestha.contact@gmail.com">Email</a>
+            <a class="btn" href="tel:+16055859277">Call</a>
+            <!-- Replace with actual LinkedIn URL -->
+            <a class="btn ghost" href="https://www.linkedin.com/in/utsabshres/" aria-label="LinkedIn profile">LinkedIn</a>
           </div>
         </div>
-      </div>
-    </div>
-    <!-- End #about -->
+      </section>
 
-    <div id="experience" class="background-alt">
-      <h2 class="heading">Experience</h2>
-      <div id="experience-timeline">
-        <div data-date="Jan 2023 – Aug 2025">
-          <h3>Cedar Gate Technologies</h3>
-          <h4>Engineering Manager</h4>
-          <ul>
-            <li>
-                Led a 9-engineer team to architect and develop a web-based service for bundle claim payment, filtering claims, integrating
-                with Bundle Engine via API calls, and applying complex pricing logic enhancing value-based care and claims accuracy.
-            </li>
-            <li>
-                Directed advanced enhancements in claims payment module, including withholding payments, recouping funds, handling
-                refunds, and reflecting changes in 835 EDI PLB segments, streamlining payment efficiency for high-volume transactions.
-            </li>
-            <li>
-              Architected distributed scheduling system using Quartz.Net clustering and SQL Server, integrating Serilog and SignalR
-              for real-time monitoring—reducing debugging time by 30% and improving scheduling performance by 40%.
-            </li>
-            <li>
-                Received 2025 Spotlight Award for impactful contributions to the Enterprise Claims Engine launch, recognizing leadership
-                in bundled payment integration.
-            </li>
-            <li>
-                Streamlined onshore-offshore collaboration across 15+ team members, ensuring effective requirement capture and technical solution design to minimize project delays by 25%.
-            </li>
-          </ul>
-        </div>
-
-        <div data-date="Jan 2022 – Jan 2023">
-          <h3>Cedar Gate Technologies</h3>
-          <h4>Associate Engineering Manager</h4>
-          <ul>
-            <li>
-              Initiated and led groundwork for bundle claim payment service using .NET and Quartz for scheduling, laying foundation
-            for advanced payment models and enhancing platform functionality.
-            <li>
-            Developed .NET 7 and ASP.NET Core web services, replacing legacy ASP.NET Web Forms and implementing APIs for
-            cross-application communication—improving interoperability, data consistency, and system performance by 20%.
-            </li>
-            <li>
-            Mentored 5 junior engineers on technical best practices and professional growth, fostering a collaborative environment
-            that accelerated team delivery timelines.
-          </li>
-          </ul>
-        </div>
-
-        <div data-date="March 2021 – Jan 2022">
-          <h3>Cedar Gate Technologies</h3>
-          <h4>Software Engineer</h4>
-          <ul>
-            <li>
-              Developed enhancements for claims pricing in EZ-CAP, improving functionality and user experience.
-            </li>
-            <li>
-              Optimized SQL queries, boosting claim processing performance by 30% and ensuring operational stability.
-            </li>
-            <li>
-              Provided client support, delivering seamless application updates for enhanced user experience.
-            </li>
-          </ul>
-        </div>
-
-        <div data-date="May 2018 – Feb 2021">
-          <h3>Softwel Private Ltd</h3>
-          <h4>Software Engineer</h4>
-          <ul>
-            <li>Developed a high-throughput API using ASP.NET Core .NET 3 for the NWASH project, handling 1000+ daily survey
-data API calls and persisting 1M+ records in PostgreSQL</li>
-              <li>
-                Integrated OpenLayers.js with GeoServer to visualize surveyed data on interactive maps for the NWASH project, enhancing geospatial analysis.
-              </li>
-              <li>
-                Engineered complex PostgreSQL queries for NWASH project client reports, optimizing WASH data analysis and accelerating delivery by 25%.
-              </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
-      <h2 class="heading">Education</h2>
-      <div class="education-block">
-        <h3>University of South Dakota</h3>
-        <span class="education-date">Aug 2025 - Dec 2026</span>
-        <h4>Master of Science in Computer Science</h4>
-        <p>Focused on advanced computing principles, including machine learning, software architecture, and data systems. 
-          Developed robust problem-solving skills through research-driven coursework and collaborative projects. <br>
-          Emphasized innovation, scalability, and ethical technology design in real-world applications.</p>
-      </div>
-      <div class="education-block">
-        <h3>
-          Jawaharlal Nehru Technological University, Kakinada (JNTU Kakinada)
-        </h3>
-        <span class="education-date">Sept 2014 - April 2018</span>
-        <h4>Bachelor of Technology in Computer Science & Engineering</h4>
+      <!-- About -->
+      <!-- Option A: Concise / impact-focused -->
+      <section id="about" class="container section reveal">
+        <h2>About</h2>
         <p>
-          Courses : Cloud Computing, Distributed Application, Data Structure and Algorithms, Design And Analysis,<br>
-           Machine Learning, Object Oriented Programming with JAVA, Cyber security, Embeded System, Electrical and communication,<br>
-            Web Programming with PHP, Compiler, Operation system.
+          Software engineer and M.S. in Computer Science candidate (AI specialization) with a track record of building and leading delivery of .NET services, 
+          distributed schedulers, and cloud integrations for data‑intensive products in healthcare. 
         </p>
-      </div>
-      <!-- End .education-block -->
-      <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
+        <p>
+          Previously led engineering for bundled claim payment services and pricing engines at Cedar Gate Technologies, implementing Quartz.NET clustering with SQL Server, and instrumenting systems with Serilog and SignalR for real‑time observability and faster debugging. 
+        </p>
+        <p>
+          Open to software engineering internships where scalable services, data workflows, and platform reliability drive outcomes.
+        </p>
+      </section>
 
-    <!-- End #projects -->
+      <!-- Skills -->
+      <section id="skills" class="container section reveal">
+        <h2>Skills</h2>
 
-    <div id="skills">
-      <h2 class="heading">Skills</h2>
-      <ul>
-        <li>C#</li>
-        <li>Asp.NET Core</li>
-        <li>SQL Server</li>
-        <li>PostgreSQL</li>
-        <li>SQL</li>
-        <li>JavaScript</li>
-        <li>Python</li>
-        <li>Node.js</li>
-        <li>Java</li>
-        <li>Problem Solving</li>
-        <li>Leadership</li>
-      </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="contact">
-      <h2>Get in Touch</h2>
-      <ul>
-        <li>linkedin : https://www.linkedin.com/in/utsabshres/</li>
-        <li>Email : utsab.shrestha@gmail.com</li>
-      </ul>
-      <!-- <div id="contact-form">
-        <form method="POST" action="https://formspree.io/email@email.com">
-          <input
-            type="hidden"
-            name="_subject"
-            value="Contact request from personal website"
-          />
-          <input
-            type="email"
-            name="_replyto"
-            placeholder="Your email"
-            required
-          />
-          <textarea
-            name="message"
-            placeholder="Your message"
-            required
-          ></textarea>
-          <button type="submit">Send</button>
-        </form>
-      </div> -->
-      <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-5 copyright">
-            <p>Copyright &copy; 2025 Utsab Shrestha</p>
+        <div class="skills-grid">
+          <div class="card">
+            <h3>Languages & Frameworks</h3>
+            <div class="badges">
+              <span>C#</span><span>Java</span><span>JavaScript</span><span>SQL</span>
+              <span>ASP.NET Core</span><span>ASP.NET</span><span>Blazor</span><span>Node.js</span>
+            </div>
           </div>
-          <div class="col-sm-2 top">
-            <span id="to-top">
-              <i class="fa fa-chevron-up" aria-hidden="true"></i>
-            </span>
+
+          <div class="card">
+            <h3>Cloud</h3>
+            <div class="badges">
+              <span>AWS</span><span>Microsoft Azure</span>
+            </div>
           </div>
-          <div class="col-sm-5 social">
-            <ul>
-              <li>
-                <a href="https://github.com/" target="_blank"
-                  ><i class="fa fa-github" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://stackoverflow.com/" target="_blank"
-                  ><i class="fa fa-stack-overflow" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://linkedin.com/" target="_blank"
-                  ><i class="fa fa-linkedin" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/" target="_blank"
-                  ><i class="fa fa-facebook" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/" target="_blank"
-                  ><i class="fa fa-twitter" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://plus.google.com/" target="_blank"
-                  ><i class="fa fa-google-plus" aria-hidden="true"></i
-                ></a>
-              </li>
-            </ul>
+
+          <div class="card">
+            <h3>DevOps & Tools</h3>
+            <div class="badges">
+              <span>Docker</span><span>Kubernetes</span><span>Jenkins</span><span>Git</span><span>CI/CD</span>
+              <span>IntelliJ</span><span>Visual Studio</span><span>VS Code</span><span>JIRA</span><span>Postman</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Databases</h3>
+            <div class="badges">
+              <span>SQL Server</span><span>PostgreSQL</span><span>MySQL</span><span>SQLite</span>
+            </div>
           </div>
         </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="container section reveal">
+        <h2>Experience</h2>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="time">Jan 2023 – Aug 2025</div>
+            <div class="content card">
+              <h3>Cedar Gate Technologies — Engineering Manager</h3>
+              <ul>
+                <li>Led a 9‑engineer team building a web service for bundle claim payment, claim filtering, and complex pricing logic integrated with a Bundle Engine API.</li>
+                <li>Introduced withholding, recoupment, refunds, and 835 EDI PLB updates to streamline high‑volume payment operations.</li>
+                <li>Architected Quartz.NET clustered scheduling with SQL Server, plus Serilog and SignalR for real‑time monitoring.</li>
+                <li>Earned 2025 Spotlight Award for Enterprise Claims Engine launch and bundled payment integration impact.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="time">Jan 2022 – Jan 2023</div>
+            <div class="content card">
+              <h3>Cedar Gate Technologies — Associate Engineering Manager</h3>
+              <ul>
+                <li>Kickstarted bundle claim payment service using .NET and Quartz, enabling advanced payment models.</li>
+                <li>Delivered .NET 7 and ASP.NET Core services replacing Web Forms, improving performance and consistency.</li>
+                <li>Mentored junior engineers and accelerated delivery timelines.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="time">Mar 2021 – Jan 2022</div>
+            <div class="content card">
+              <h3>Cedar Gate Technologies — Software Engineer</h3>
+              <ul>
+                <li>Enhanced claims pricing in EZ‑CAP and optimized SQL to boost claim processing by 30%.</li>
+                <li>Supported clients with seamless app updates and stability improvements.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="time">May 2018 – Feb 2021</div>
+            <div class="content card">
+              <h3>Softwel Pvt. Ltd — Software Engineer</h3>
+              <ul>
+                <li>Built high‑throughput ASP.NET Core API for NWASH, handling 1000+ daily survey calls and 1M+ records.</li>
+                <li>Integrated OpenLayers.js with GeoServer for interactive geospatial visualization.</li>
+                <li>Crafted advanced PostgreSQL reports to speed WASH analysis by 25%.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="container section reveal">
+        <h2>Projects</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Smart Traffic Light System</h3>
+            <p>IoT‑based traffic lights with RFID priority for VIP vehicles, plus a PHP web app and centralized server control.</p>
+            <p class="meta">Sep 2017 – Apr 2018</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section id="education" class="container section reveal">
+        <h2>Education</h2>
+        <ul class="edu">
+          <li>
+            <div class="card">
+              <h3>University of South Dakota, Vermillion, SD</h3>
+              <p>M.S. in Computer Science (Specialization: Artificial Intelligence) — Aug 2025 – Dec 2026</p>
+              <p class="meta">Relevant coursework: Data Structures, Machine Learning, AI, Computer Vision, Distributed System</p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h3>Jawaharlal Nehru Technological University</h3>
+              <p>B.Tech. in Computer Science & Engineering — Sept 2014 – Apr 2018</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="container section reveal">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:utsab.shrestha.contact@gmail.com">📧 Email</a>
+          <a class="contact-card" href="tel:+16055859277">📞 Phone</a>
+          <a class="contact-card" href="https://www.linkedin.com/in/utsabshres/" aria-label="LinkedIn profile">💼 LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Utsab Shrestha</p>
       </div>
     </footer>
-    <!-- End footer -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
