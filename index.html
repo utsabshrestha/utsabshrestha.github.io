@@ -58,7 +58,7 @@
       <section id="about" class="container section reveal">
         <h2>About</h2>
         <p>
-          Software engineer and M.S. in Computer Science candidate (AI specialization) with a track record of building and leading delivery of .NET services,
+          Software engineer and M.S. in Computer Science candidate with a track record of building and leading delivery of .NET services,
           distributed schedulers, and cloud integrations for data‑intensive products in healthcare.
         </p>
         <p>
@@ -113,10 +113,16 @@
             <div class="content card">
               <h3>Cedar Gate Technologies — Engineering Manager</h3>
               <ul>
-                <li>Led a 9‑engineer team building a web service for bundle claim payment, claim filtering, and complex pricing logic integrated with a Bundle Engine API.</li>
-                <li>Introduced withholding, recoupment, refunds, and 835 EDI PLB updates to streamline high‑volume payment operations.</li>
-                <li>Architected Quartz.NET clustered scheduling with SQL Server, plus Serilog and SignalR for real‑time monitoring.</li>
-                <li>Earned 2025 Spotlight Award for Enterprise Claims Engine launch and bundled payment integration impact.</li>
+                <li>Researched, designed, developed, and integrated bundled-payment (episode-based) capability into a US healthcare claims
+                    payment and adjudication platform via API integration with a Bundle Engine, increasing claims automation and accuracy
+                    while enabling scalable episode processing across high-volume workflows.</li>
+                <li>Architected and developed a distributed scheduling system using Quartz.NET clustering with SQL Server AdoJobStore,
+                    integrating SignalR and Serilog for real-time job telemetry; reduced debugging time by 30% and improved scheduling
+                    throughput by 40% through clustered failover and load balancing best practices.</li>
+                <li>Built advanced claims payment features for withholding, recoupment, refunds, and automated 835 EDI Provider Level
+                    Balance (PLB) adjustments to support bundled payments, improving auto-posting accuracy and payment efficiency for
+                    large batches.</li>
+                <li>ERecognized with 2025 Spotlight Award for Enterprise Claims Engine launch and bundled-payment integration, highlightng cross-team leadership under tight timelines and delivery quality.</li>
               </ul>
             </div>
           </article>
@@ -126,9 +132,11 @@
             <div class="content card">
               <h3>Cedar Gate Technologies — Associate Engineering Manager</h3>
               <ul>
-                <li>Kickstarted bundle claim payment service using .NET and Quartz, enabling advanced payment models.</li>
-                <li>Delivered .NET 7 and ASP.NET Core services replacing Web Forms, improving performance and consistency.</li>
-                <li>Mentored junior engineers and accelerated delivery timelines.</li>
+                <li>Initiated the design and led groundwork for bundled payment service using ASP.NET Core, Quartz.NET for distributed
+                  scheduling, SQL Server for data persistence; laying foundation for advanced payment models and enhancing platform
+                  functionality.</li>
+                <li>Developed .NET 7 and ASP.NET Core web services to replace legacy ASP.NET Web Forms; implemented internal APIs
+                  for cross-application communication, improving interoperability, data consistency, and overall performance by 20%.</li>
               </ul>
             </div>
           </article>
@@ -138,8 +146,10 @@
             <div class="content card">
               <h3>Cedar Gate Technologies — Software Engineer</h3>
               <ul>
-                <li>Enhanced claims pricing in EZ‑CAP and optimized SQL to boost claim processing by 30%.</li>
-                <li>Supported clients with seamless app updates and stability improvements.</li>
+                <li>Optimized SQL queries and stored procedures across claims modules, improving claim processing throughput by 30% on
+                    datasets exceeding 1M rows via indexing strategies and query plan tuning.</li>
+                <li>Architected and implemented critical claims pricing features in the Capitation Adjudication (EZ-CAP) system, which
+                    improved functionality by 25% and reduced claims processing time by 15%, resulting in increased operational efficiency.</li>
               </ul>
             </div>
           </article>
@@ -149,9 +159,12 @@
             <div class="content card">
               <h3>Softwel Pvt. Ltd — Software Engineer</h3>
               <ul>
-                <li>Built high‑throughput ASP.NET Core API for NWASH, handling 1000+ daily survey calls and 1M+ records.</li>
-                <li>Integrated OpenLayers.js with GeoServer for interactive geospatial visualization.</li>
-                <li>Crafted advanced PostgreSQL reports to speed WASH analysis by 25%.</li>
+                <li>Built a high-throughput ASP.NET Core (.NET 3) API for the Nepal National WASH program, reliably handling 1,000+
+                daily survey submissions and persisting 1M+ records in PostgreSQL with robust data integrity and batching.</li>
+                <li>Engineered complex PostgreSQL queries and reporting pipelines to accelerate WASH analytics delivery by 25%, improving
+                stakeholder reporting SLAs.</li>
+                <li>Integrated OpenLayers.js with GeoServer to visualize surveyed geospatial data on interactive maps, enabling spatial
+                insights and field operations planning.</li>
               </ul>
             </div>
           </article>
@@ -166,6 +179,12 @@
             <h3>Smart Traffic Light System</h3>
             <p>IoT‑based traffic lights with RFID priority for VIP vehicles, plus a PHP web app and centralized server control.</p>
             <p class="meta">Sep 2017 – Apr 2018</p>
+          </div>
+          <div class="card">
+            <h3>ECG Arrhythmia Classification </h3>
+            <p>Implement 1D CNN→LSTM on Kaggle Heartbeat CSVs (188-sample beats, 5 classes). Addressed severe class imbalance with down/oversampling and evaluated with stratified train/test splits to ensure reliable
+              F1 across minority classes. stack: PyTorch, scikit-learn, imbalanced-learn, NumPy/Pandas.</p>
+            <p class="meta">Oct 2025 – Dec 2025</p>
           </div>
         </div>
       </section>
