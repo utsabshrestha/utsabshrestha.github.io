@@ -4,15 +4,37 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Utsab Shrestha — Software Engineer</title>
-    <meta name="description" content="Resume website for Utsab Shrestha — Software Engineer and Engineering Manager with experience in .NET, distributed systems, and cloud." />
+<meta name="description" content="Utsab Shrestha – Software Engineer and MS Computer Science student seeking Summer 2026 internships. Experience in .NET, distributed systems, and cloud infrastructure." />
     <meta name="color-scheme" content="light dark" />
 
     <!-- Open Graph -->
+     <meta property="og:image" content="https://utsabshrestha.github.io/assets/og-image.png" />
     <meta property="og:title" content="Utsab Shrestha — Software Engineer" />
     <meta property="og:description" content="Modern resume with skills, experience, projects, and downloadable PDF." />
     <meta property="og:type" content="website" />
 
     <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Utsab Shrestha",
+        "jobTitle": "Software Engineer",
+        "description": "MS Computer Science student specializing in distributed systems and backend engineering",
+        "url": "https://utsabshrestha.github.io",
+        "email": "utsab.shrestha.contact@gmail.com",
+        "telephone": "+16055859277",
+        "alumniOf": [
+          {
+            "@type": "EducationalOrganization",
+            "name": "University of South Dakota"
+          }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/in/utsabshres/"
+        ]
+      }
+      </script>
   </head>
   <body>
     <header class="site-header">
@@ -38,10 +60,13 @@
       <section class="hero container reveal">
         <div class="hero-text">
           <h1 class="gradient-text">Utsab Shrestha</h1>
-          <p class="subtitle">Software Engineer • Engineering Manager</p>
+          <p class="subtitle">Software Engineer | MS Computer Science Student @ USD 
+            <br> Distributed Systems • Backend Architecture • Cloud Infrastructure</p>
+            <br><small style="color: #2563eb; font-weight: 600;">🔍 Seeking Summer 2026 Software Engineering Internships</small>
+
           <p class="tagline">
-            Building performant .NET services, distributed schedulers, and cloud-native systems for data-heavy products.
-          </p>
+          Building scalable backend systems, distributed schedulers, and high-throughput APIs using .NET, SQL Server, and cloud infrastructure.
+        </p>
           <div class="cta">
             <!-- Same-origin PDF for download -->
             <a class="btn primary" href="assets/UtsabShresthaResume.pdf" download="Utsab_Shrestha_Resume.pdf" rel="noopener">Download Resume</a>
@@ -58,12 +83,17 @@
       <section id="about" class="container section reveal">
         <h2>About</h2>
         <p>
-          Software engineer and M.S. in Computer Science candidate with a track record of building and leading delivery of .NET services,
-          distributed schedulers, and cloud integrations for data‑intensive products in healthcare.
-        </p>
-        <p>
-          Previously led engineering for Capitation Adjudication Bundled claim payment services at Cedar Gate Technologies, implementing Quartz.NET clustering with SQL Server, and instrumenting systems with Serilog and SignalR for real‑time observability and faster debugging.
-        </p>
+          Hi, I'm Utsab! I'm a Computer Science graduate student at the University of 
+          South Dakota, specializing in distributed systems and backend engineering.
+
+          I have 7+ years of software engineering experience, most recently as an 
+          Engineering Manager at Cedar Gate Technologies, where I remained deeply 
+          hands-on—architecting scalable payment systems, building distributed 
+          scheduling infrastructure, and optimizing high-volume claims processing.
+
+          I'm now pursuing my MS to deepen my technical expertise and am seeking 
+          Summer 2026 software engineering internships in distributed systems, 
+          backend development, and cloud infrastructure.</p>
       </section>
 
       <!-- Skills -->
@@ -74,8 +104,9 @@
           <div class="card">
             <h3>Languages & Frameworks</h3>
             <div class="badges">
-              <span>C#</span><span>Java</span><span>JavaScript</span><span>SQL</span>
-              <span>ASP.NET Core</span><span>ASP.NET</span><span>Blazor</span><span>Node.js</span>
+              <span>C#</span><span>Java</span><span>JavaScript</span><span>PHP</span><span>SQL</span>
+              <span>ASP.NET Core</span><span>ASP.NET</span><span>Blazor</span><span>Node.js</span><span>CodeIgniter</span>
+              <span>Quartz.NET</span><span>SignalR</span>
             </div>
           </div>
 
@@ -90,6 +121,7 @@
             <h3>DevOps & Tools</h3>
             <div class="badges">
               <span>Docker</span><span>Kubernetes</span><span>Jenkins</span><span>Git</span><span>CI/CD</span>
+              <span>NUnit</span><span>xUnit</span>
               <span>IntelliJ</span><span>Visual Studio</span><span>VS Code</span><span>JIRA</span><span>Postman</span>
             </div>
           </div>
@@ -97,7 +129,7 @@
           <div class="card">
             <h3>Databases</h3>
             <div class="badges">
-              <span>SQL Server</span><span>PostgreSQL</span><span>MySQL</span><span>SQLite</span>
+              <span>SQL Server</span><span>PostgreSQL</span><span>MySQL</span><span>MongoDB</span><span>Redis</span><span>SQLite</span>
             </div>
           </div>
         </div>
@@ -122,7 +154,7 @@
                 <li>Built advanced claims payment features for withholding, recoupment, refunds, and automated 835 EDI Provider Level
                     Balance (PLB) adjustments to support bundled payments, improving auto-posting accuracy and payment efficiency for
                     large batches.</li>
-                <li>ERecognized with 2025 Spotlight Award for Enterprise Claims Engine launch and bundled-payment integration, highlightng cross-team leadership under tight timelines and delivery quality.</li>
+                <li>Recognized with 2025 Spotlight Award for Enterprise Claims Engine launch and bundled-payment integration, highlighting cross-team leadership under tight timelines and delivery quality.</li>
               </ul>
             </div>
           </article>
@@ -159,8 +191,9 @@
             <div class="content card">
               <h3>Softwel Pvt. Ltd — Software Engineer</h3>
               <ul>
-                <li>Built a high-throughput ASP.NET Core (.NET 3) API for the Nepal National WASH program, reliably handling 1,000+
-                daily survey submissions and persisting 1M+ records in PostgreSQL with robust data integrity and batching.</li>
+                <li>Designed and built a high-throughput API for the Nepal National WASH program initially in PHP CodeIgniter, then architected 
+                  and executed full migration to ASP.NET Core (.NET 3); reliably handled 1,000+ daily survey submissions and persisted 1M+ records 
+                  in PostgreSQL with robust data integrity and batching.</li>
                 <li>Engineered complex PostgreSQL queries and reporting pipelines to accelerate WASH analytics delivery by 25%, improving
                 stakeholder reporting SLAs.</li>
                 <li>Integrated OpenLayers.js with GeoServer to visualize surveyed geospatial data on interactive maps, enabling spatial
@@ -182,8 +215,12 @@
           </div>
           <div class="card">
             <h3>ECG Arrhythmia Classification </h3>
-            <p>Implement 1D CNN→LSTM on Kaggle Heartbeat CSVs (188-sample beats, 5 classes). Addressed severe class imbalance with down/oversampling and evaluated with stratified train/test splits to ensure reliable
-              F1 across minority classes. stack: PyTorch, scikit-learn, imbalanced-learn, NumPy/Pandas.</p>
+            <p>
+              Implemented 1D CNN→LSTM on Kaggle Heartbeat CSVs (188-sample beats, 5 classes). 
+              Addressed severe class imbalance with down/oversampling and evaluated with stratified 
+              train/test splits to ensure reliable F1 across minority classes.
+              <br><strong>Stack:</strong> PyTorch, scikit-learn, imbalanced-learn, NumPy/Pandas.
+            </p>
             <p class="meta">Oct 2025 – Dec 2025</p>
           </div>
         </div>
@@ -217,6 +254,9 @@
           <a class="contact-card" href="tel:+16055859277">📞 Phone</a>
           <a class="contact-card" href="https://www.linkedin.com/in/utsabshres/" aria-label="LinkedIn profile">💼 LinkedIn</a>
         </div>
+        <div style="text-align: center; margin-top: 2rem;">
+        <a class="btn primary" href="assets/UtsabShresthaResume.pdf" download="Utsab_Shrestha_Resume.pdf">📄 Download Resume (PDF)</a>
+      </div>
       </section>
     </main>
 
