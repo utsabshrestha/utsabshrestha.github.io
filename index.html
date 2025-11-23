@@ -74,6 +74,7 @@
             <a class="btn" href="tel:+16055859277">Call</a>
             <!-- Replace with actual LinkedIn URL -->
             <a class="btn ghost" href="https://www.linkedin.com/in/utsabshres/" aria-label="LinkedIn profile">LinkedIn</a>
+            <a class="btn ghost" href="https://github.com/utsabshrestha" aria-label="GitHub profile">GitHub</a>
           </div>
         </div>
       </section>
@@ -85,15 +86,15 @@
         <p>
           Hi, I'm Utsab! I'm a Computer Science graduate student at the University of 
           South Dakota, specializing in distributed systems and backend engineering.
-
-          I have 7 years of software engineering experience, most recently as an 
-          Lead Software Engineer / Engineering Manager at Cedar Gate Technologies, where I remained deeply 
-          hands-on—architecting scalable payment systems, building distributed 
-          scheduling infrastructure, and optimizing high-volume claims processing.
-
-          I'm now pursuing my MS to deepen my technical expertise and am seeking 
-          Summer 2026 software engineering internships in distributed systems, 
-          backend development, and cloud infrastructure.</p>
+          
+          I have professional experience building scalable payment systems and distributed 
+          infrastructure at Cedar Gate Technologies, where I architected high-throughput 
+          APIs, implemented distributed scheduling with Quartz.NET, and optimized claims 
+          processing for healthcare applications.
+          
+          I'm now pursuing my MS to deepen my expertise in AI and distributed systems, and 
+          I'm seeking Summer 2026 software engineering internships where I can contribute 
+          my technical skills and learn from experienced engineering teams.</p>
       </section>
 
       <!-- Skills -->
@@ -104,8 +105,10 @@
           <div class="card">
             <h3>Languages & Frameworks</h3>
             <div class="badges">
-              <span>C#</span><span>Java</span><span>JavaScript</span><span>PHP</span><span>SQL</span>
-              <span>ASP.NET Core</span><span>ASP.NET</span><span>Blazor</span><span>Node.js</span><span>CodeIgniter</span>
+              <span>C#</span><span>C</span><span>Java</span><span>Python</span>
+              <span>JavaScript</span><span>PHP</span><span>SQL</span>
+              <span>ASP.NET Core</span><span>ASP.NET</span><span>Blazor</span>
+              <span>Node.js</span><span>Express.js</span><span>CodeIgniter</span>
               <span>Quartz.NET</span><span>SignalR</span>
             </div>
           </div>
@@ -143,7 +146,7 @@
           <article class="timeline-item">
             <div class="time">Jan 2023 – Aug 2025</div>
             <div class="content card">
-              <h3>Cedar Gate Technologies — Lead Software Engineer / Engineering Manager</h3>
+              <h3>Cedar Gate Technologies — Lead Software Engineer</h3>
               <ul>
                 <li>Led end-to-end delivery of payment integration service, expanding initial prototype to production-ready platform serving
                 3+ legacy systems across distributed servers; architected background job processing, RESTful APIs, and SQL Server
@@ -163,7 +166,7 @@
           <article class="timeline-item">
             <div class="time">Jan 2022 – Jan 2023</div>
             <div class="content card">
-              <h3>Cedar Gate Technologies — Senior Software Engineer / Associate Engineering Manager</h3>
+              <h3>Cedar Gate Technologies — Senior Software Engineer</h3>
               <ul>
                 <li>Designed foundational architecture for a payment integration service using ASP.NET Core, establishing RESTful API
                 patterns, database schema design with SQL Server, and initial Quartz.NET job scheduling framework for payment
@@ -211,20 +214,29 @@
         <h2>Projects</h2>
         <div class="cards">
           <div class="card">
-            <h3>Smart Traffic Light System</h3>
-            <p>IoT‑based traffic lights with RFID priority for VIP vehicles, plus a PHP web app and centralized server control.</p>
-            <p class="meta">Sep 2017 – Apr 2018</p>
-          </div>
-          <div class="card">
             <h3>ECG Arrhythmia Classification </h3>
             <p>
-              Implemented 1D CNN→LSTM on Kaggle Heartbeat CSVs (188-sample beats, 5 classes). 
-              Addressed severe class imbalance with down/oversampling and evaluated with stratified 
-              train/test splits to ensure reliable F1 across minority classes.
-              <br><strong>Stack:</strong> PyTorch, scikit-learn, imbalanced-learn, NumPy/Pandas.
+              Designed and benchmarked 1D-CNN backbones (ResNet, Inception) for multi-class arrhythmia detection, integrating attention 
+              mechanisms to capture temporal morphological features. Conducted extensive ablation studies across loss functions (Cross-Entropy vs. Focal Loss) 
+              and weighting strategies to optimize for Macro-F1 score on imbalanced data. Implemented a reproducible multi-seed experimental workflow to 
+              quantify model variance, demonstrating a stable state-of-the-art performance of 98% accuracy.
+              <br><strong>Stack:</strong> Tech Stack: Python, TensorFlow/Keras, Scikit-learn, Matplotlib, Seaborn.
+              <br><strong>github: </strong><a  href="https://github.com/utsabshrestha/ECG-Arrhythmia-Classification" >github repo</a>
+
             </p>
             <p class="meta">Oct 2025 – Dec 2025</p>
           </div>
+            <div class="card">
+              <h3>Distributed Job Scheduler Dashboard</h3>
+              <p>
+                Built a real-time monitoring dashboard for distributed job scheduling system using 
+                SignalR, ASP.NET Core, and JavaScript. Displays job execution status, cluster health, 
+                and performance metrics across multiple nodes. Enabled 30% faster debugging through 
+                live telemetry visualization.
+                <br><strong>Stack:</strong> ASP.NET Core, SignalR, Quartz.NET, SQL Server, JavaScript.
+              </p>
+              <p class="meta">Jan 2023 – Aug 2025</p>
+            </div>
         </div>
       </section>
 
